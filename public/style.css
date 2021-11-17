@@ -1,0 +1,173 @@
+body {
+  margin: 1rem;
+}
+
+.form-rounded {
+  max-width: 500px;
+  border-radius: 1rem;
+}
+
+.form_rnd-btn {
+  max-width: 500px;
+}
+
+.btn-success {
+  margin-top: 40px;
+  font-family: Raleway-SemiBold;
+  font-size: 24px;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 20px;
+  border: 2px solid rgba(103, 192, 103, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-success:hover {
+  color: black;
+  background: rgba(7, 92, 7, 0.75);
+  border: 2px solid rgb(103, 192, 103, 0.75);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card-container {
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 50px;
+  ;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.register_title {
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.register_wrap_input {
+  margin-top: 35%;
+}
+
+.social_icon {
+  margin: 0 2wh 0 2wh;
+}
+
+.input_border {
+  border: none;
+  color: royalblue;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.vcard_item {
+  color: #0056b3;
+  font-weight: bold;
+}
+
+/* .MuiDialog-paper {
+  margin: 0 !important;
+} */
+
+/* .MuiDialogTitle-root>canvas {
+  width: 500px !important;
+} */
+
+.user_avatar {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  margin-top: 6vh;
+}
+
+.register_style {
+  margin-top: 35%;
+  text-align: center;
+}
+
+.main_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+}
+
+.vcard_wrap {
+  margin: 0;
+}
+
+/* .MuiDialog-paperWidthSm {
+  width: 90%;
+} */
+
+@media screen and (min-width: 730px) {
+  .user_avatar {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    margin-top: 0vh;
+  }
+  .register_style {
+    margin-top: 3%;
+    text-align: center;
+  }
+  .register_wrap_input {
+    margin-top: 10%;
+  }
+  .register_title {
+    margin-bottom: 5px;
+    max-width: 500px;
+  }
+  .main_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+  }
+  .vcard_wrap {
+    margin-top: 9vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #react-qrcode-logo {
+    width: 375px !important;
+    height: 380px !important;
+  }
+}
