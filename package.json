@@ -51,8 +51,8 @@
       "last 1 safari version"
     ]
   },
-  "engines" :{
-    "node":"14.x"
+  "engines": {
+    "node": "14.x"
   },
   "devDependencies": {
     "@webpack-cli/generators": "^2.4.1"
